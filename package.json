@@ -19,6 +19,7 @@
     "react-typist": "^2.0.5"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.1.2",
     "@types/ascii-art": "^1.4.0",
     "@types/node": "17.0.31",
     "@types/react": "18.0.8",

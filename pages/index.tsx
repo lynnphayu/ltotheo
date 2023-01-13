@@ -1,7 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import Typist from "react-typist";
 import Typed from "react-typed";
 import { atom, useAtom } from "jotai";
 
@@ -44,7 +41,8 @@ const Home: NextPage = () => {
               </span>
             </p>
             <p className="w-auto md:w-80 leading-none text-white font-bold mx-auto px-12 md:px-0 py-4">
-              Making Backends at&nbsp;
+              {/* Making Backends at&nbsp; */}
+              Crafting Systems at&nbsp;
               <a
                 href="https://zig.live"
                 className="underline text-spotify-green"
