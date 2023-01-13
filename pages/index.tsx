@@ -21,7 +21,7 @@ const Home: NextPage = () => {
   return (
     <div className="w-screen h-full flex flex-col justify-center align-middle m-0 p-0">
       <div className="h-full flex flex-col md:flex-row justify-start">
-        <div className="text-spotify-green pattern-cross-dots-md  w-full md:w-1/2 h-1/2 md:h-full overflow-visible flex flex-col justify-center">
+        <div className="text-spotify-gree bg-spotify-green/10 w-full md:w-1/2 h-1/2 md:h-full overflow-visible flex flex-col justify-center">
           {/* pr-[40%] pl-[10%] md:pl-[35%] md:pr-[15%] sm:pl-[50%] sm:pr-[7%] max-w-[100%] md:max-w-[20%] pt-[50%] md:pt-[50vh] */}
           <div className="">
             <p className="w-max md:w-80 px-12 md:p-0 md:mx-auto leading-none font-extrabold text-white text-3xl">
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="container w-full md:w-1/2 my-8">
+        <div className="container w-full md:w-1/2 my-2">
           <div className="flex flex-col justify-start">
             <div className="max-w-full px-12 md:px-24">
               <div className="py-1 md:py-3">
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="max-w-full py-4 md:py-10 px-12 md:px-24">
-              <div className="container flex justify-center m-auto text-spotify-green">
+              <div className="container flex justify-center m-auto text-spotify-green/50">
                 <a
                   href="https://github.com/lynnphayu"
                   className="mx-6 text-3xl fa-brands fa-github-square"
